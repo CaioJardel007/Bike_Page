@@ -1,7 +1,12 @@
 *{
     box-sizing: border-box;
-    color: white;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(205, 205, 205);
 }
 .container{
     display: flex;
@@ -28,13 +33,48 @@ li{
     padding: 10px;
     font-weight: bolder;
     cursor: pointer;
+    background-color: white;
 }
 li:hover{
     background-color: black;
     transition: 0.7s;
+    color: white;
 }
-body{
-    margin: 0;
-    padding: 0;
-    background-color: black;
+main{
+    height: 720px;
+    background-color: #d77833;
+    display: flex;
+    box-shadow: inset 0px 0px 30px rgba(0, 0, 0, 0.282);
+}
+#bike1{
+    margin: 20px 120px;
+    width: 700px;
+}
+article{
+    width: 700px;
+    margin: 90px 30px auto 50px;
+    border-radius: 10px;
+}
+del{
+    color: rgb(178, 9, 9);
+}
+p{
+    font-size: 35px;
+}
+#destaque{
+    color: darkgreen;
+}
+button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 25px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: darkred;
+    transform: translateY(20%);
 }

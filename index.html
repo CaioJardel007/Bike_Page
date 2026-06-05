@@ -6,44 +6,108 @@
     <title>Pedal Force - Bike Shop</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="bike.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 <header>
     <div class="container">
         <div class="logo1">
-            <a href="#"><img src="favicon_io (4)/android-chrome-192x192.png" alt="logo" style="border-radius: 50%"></a>
+            <a href="#"><img src="assets/favicon_io (4)/android-chrome-192x192.png" alt="logo" style="border-radius: 50%"></a>
         </div>
         
         <nav>
             <ul>
-                <li>Home</li>
-                <li>Produtos</li>
-                <li>Carrinho</li>
-                <li>Contato</li>
+                <li><i class="fa-solid fa-house"></i> Home</li>
+                <li><i class="fa-solid fa-bicycle"></i> Produtos</li>
+                <li><i class="fa-solid fa-bag-shopping"></i> Carrinho</li>
+                <li><i class="fa-solid fa-phone"></i> Contato</li>
             </ul>
         </nav>
         </header>
     </div>
         
             <section id="section1">
-                <img id="bike1" src="bike1.png" alt="bike1">
-                <div class="info-bike">
-                    <p id="p1">Bicicleta Aro 29 Alumínio Freio A Disco 27 Velocidades Alavanca</p>
-                    <p style="margin: -30px 0px 0px 20px;">Preço promocional:</p>
-                    <p style="margin: 20px 0px 0px 20px;" id="destaque"><del>R$ 1.249,90</del> R$ 1.099,90</p>
-                    <button>Saiba mais</button>
+                <img id="bike1" src="assets/bike1.png" alt="bike1">
+                <div class="info-bike1">
+                    <p class="p1">Bicicleta Aro 29 Alumínio Freio A Disco 27 Velocidades Alavanca</p>
+                    <p class="p1" style="margin: -30px 0px 0px 20px;">Preço promocional:</p>
+                    <p class="p1" style="margin: 20px 0px 0px 20px; font-weight: bold;" id="destaque"><del>R$ 2.349,90</del> R$ 2.099,90</p>
+                    <button id="button1">Saiba mais</button>
                 </div>
             </section>
 
 
             <section id="section2">
-                <h2>Produtos em Promoções <hr></h2>
+                <h2>Produtos em Promoção <hr></h2>
+
                 <div id="lista-produtos">
-                    <article class="produto"></article>
-                    <article class="produto"></article>
-                    <article class="produto"></article>
+
+                    <article class="produto">
+                        <img class="bike2" src="assets/bike2.png" alt="">
+                        <div class="info-bike2">
+                            <p class="p2">Bicicleta Aro 29 Track Bikes TKS 29 VN - Alumínio Freio a Disco 21 Marchas</p>
+                            <p style="color: darkgreen; font-weight: bold; padding-left: 10px;"><del>R$ 2645,90</del> R$ 2.375,90</p>
+                            <button class="button2">Comprar</button>
+                        </div>
+                    </article>
+
+                    <article class="produto">
+                        <img class="bike4" src="assets/bike4.png" alt="">
+                        <div class="info-bike2">
+                            <p class="p2">Bicicleta Aro 29 MTB Aço 21 Marchas Freio a Disco Tridal Bike</p>
+                            <p style="color: darkgreen; font-weight: bold; padding-left: 10px;"><del>R$ 1050,90</del> R$ 939,90</p>
+                            <button class="button2">Comprar</button>
+                        </div>
+                    </article>
+
+                    <article class="produto">
+                        <img class="bike3" src="assets/bike3.png" alt="">
+                        <div class="info-bike2">
+                            <p class="p2">Bicicleta Aro 29 Shimano Altus Toro Azul Fosco - Colli Bike</p>
+                            <p style="color: darkgreen; font-weight: bold; padding-left: 10px;"><del>R$ 1980,90</del> R$ 1699,90</p>
+                            <button class="button2">Comprar</button>
+                        </div>
+                    </article>
+
+                    
+
                 </div>
             </section>
-        <footer></footer>
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i style="color: #fa6a01;" class="fa-solid fa-store"></i> Pedal Force</h3>
+                    <p style="color: white;">Sua loja de bicicletas de confiança</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4><i style="color: #fa6a01;" class="fa-solid fa-map-location-dot"></i> Endereço</h4>
+                    <p style="color: white;">Rua das Bicicletas, 123<br>Maceió, AL - 01234-567</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4><i style="color: #fa6a01;" class="fa-solid fa-phone"></i> Telefone</h4>
+                    <p style="color: white;">(99) 9999-9999</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4><i style="color: #fa6a01;" class="fa-solid fa-envelope"></i> E-mail</h4>
+                    <p><a style="color: white;" href="contato@pedalforce.com">contato@pedalforce.com</a></p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4><i style="color: #fa6a01;" class="fa-solid fa-clock"></i> Horário</h4>
+                    <p style="color: white;">Seg-Sex: 9h às 18h<br>Sáb: 9h às 14h<br>Dom: Fechado</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4><i style="color: #fa6a01;" class="fa-solid fa-shield"></i> Política</h4>
+                    <p><a style="color: white;" href="#">Política de Privacidade</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p style="color: white;">&copy; 2026 Pedal Force. Todos os direitos reservados.</p>
+            </div>
+        </footer>
 </body>
 </html>

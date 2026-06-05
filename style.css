@@ -8,6 +8,9 @@ body{
     padding: 0;
     background-color: rgb(205, 205, 205);
 }
+header{
+    width: 100%;
+}
 .container{
     display: flex;
     background-color: #FA6A01;
@@ -40,32 +43,38 @@ li:hover{
     transition: 0.7s;
     color: white;
 }
-main{
-    height: 720px;
-    background-color: #d77833;
-    display: flex;
-    box-shadow: inset 0px 0px 30px rgba(0, 0, 0, 0.282);
-}
 #bike1{
-    margin: 20px 120px;
+    margin: 10px 120px 50px 80px;
     width: 700px;
 }
-article{
-    width: 700px;
-    margin: 90px 30px auto 50px;
-    border-radius: 10px;
+#section1{
+    display: flex;
+    background-color: #d77833;
+    box-shadow: inset 0px 0px 30px rgba(0, 0, 0, 0.282);
+    height: 700px;
 }
+.info-bike{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 20px;
+}
+
 del{
     color: rgb(178, 9, 9);
 }
+
 p{
+    margin: 150px 0px 50px 20px;
     font-size: 35px;
 }
 #destaque{
     color: darkgreen;
 }
 button{
+    width: 200px;
     padding: 10px;
+    margin: 20px 0px 0px 30px;
     border-radius: 10px;
     border: none;
     font-size: 25px;
@@ -77,4 +86,33 @@ button{
 button:hover{
     background-color: darkred;
     transform: translateY(20%);
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+hr{
+    width: 360px;
+    height: 5px;
+    background-color: #FA6A01;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+#lista-produtos{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    gap: 50px;
+}
+.produto{
+    width: 300px;
+    height: 400px;
+    background-color: #FA6A01;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.produto:hover{
+    transform: scale(1.22);
 }
